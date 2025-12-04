@@ -1,8 +1,11 @@
-Conveyor-Hardware-Design
+# Conveyor-Hardware-Design
+
 This repository contains the mechanical design files for the Luggage Classification Conveyor system. It is a submodule of the main firmware repository.
 Overview
 This collection of files defines the physical structure of the automated sorting system. It includes the chassis for the conveyor belt, mounts for the servo motors, housings for the sensors (IR, Magnetic, Load Cell), and the diversion gates used to sort the luggage.
-Directory Structure
+
+## Directory Structure
+
  * /SolidWorks: Contains the source CAD files (.SLDPRT and .SLDASM) for modification and assembly viewing.
  * /STL: Ready-to-print files for 3D printing.
  * /DXF: Vector files intended for laser cutting (if applicable) or reference.
@@ -18,7 +21,8 @@ To assemble the physical conveyor, you will need the printed parts found in the 
  * Fasteners:
    * Assorted M3 screws and nuts.
    * Conveyor belt material (Fabric or rubber strip).
-Assembly Notes
+
+## Assembly Notes
  * Servo Calibration: Before permanently mounting the servo arms, ensure the servos are set to their neutral positions using the calibration tools found in the Conveyor-Tools repository.
  * Load Cell Mounting: Ensure the load cell is mounted with the correct orientation (arrow pointing down) and that the weighing platform does not touch the base chassis to ensure accurate readings.
  * Sensor Placement:
